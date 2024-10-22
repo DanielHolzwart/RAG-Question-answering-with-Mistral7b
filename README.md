@@ -6,4 +6,6 @@ Moreover, the model's knowledge is static in the sense that, quite often, it doe
 To have better results on predetermined tasks, fine-tuning is often an appropiate choice. However, in this workbook we will look at retrival augmented generation (=RAG). This is a powerfull application to query text passages
 and give the model the direction to extract the answer from. In this way, the output of the model is much more dynamic and does not involve the costly fine-tuning process.
 
-The model we will be looking at the Mistral7b which has already been fine-tuned on instruction tasks https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2. We will see how RAG works within the llamaindex framework and make some simply tests.
+The model we will be looking at the Mistral7b which has already been fine-tuned on instruction tasks https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2. We will see how RAG works within the llamaindex framework and make two simple tests by asking the question "What is RAG in terms of LLMs?" to vanilla model and afterwards to the model with RAG implemented.
+
+  
